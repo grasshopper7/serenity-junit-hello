@@ -21,7 +21,7 @@ public class SauceLogin {
 
 	@Test
 	@Title("Navigate To Sauce Login Test")
-	public void shouldLoginSuccesfully() {
+	public void navigateToLoginPage() {
 		loginSteps.navigateToWebApp();
 	}
 }
