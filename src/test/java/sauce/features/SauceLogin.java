@@ -21,12 +21,12 @@ public class SauceLogin {
 	private LoginSteps loginSteps;
 
 	@Before
-	public void openSauceSite() {
+	public void loginToSite() {
 		loginSteps.navigateToWebApp();
 	}
 
 	@Test
-	@Title("Successful Login Test")
+	@Title("Submit Login Details Test")
 	public void shouldLoginSuccesfully() {
 		loginSteps.attemptToLoginSuccessfully("standard_user", "secret_sauce");
 	}
