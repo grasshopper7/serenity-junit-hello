@@ -25,7 +25,7 @@ public class SauceLogin {
 	private InventorySteps inventorySteps;
 
 	@Before
-	public void loginToSite() {
+	public void navigateToLoginPage() {
 		loginSteps.navigateToWebApp();
 	}
 
