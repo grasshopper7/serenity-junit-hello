@@ -1,5 +1,6 @@
 package sauce.features;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
@@ -19,9 +20,14 @@ public class SauceLogin {
 	@Steps(actor = "John Doe")
 	private LoginSteps loginSteps;
 
-	@Test
-	@Title("Navigate To Sauce Login Test")
-	public void shouldLoginSuccesfully() {
+	@Before
+	public void openSauceSite() {
 		loginSteps.navigateToWebApp();
+	}
+
+	@Test
+	@Title("Successful Login Test")
+	public void shouldLoginSuccesfully() {
+		loginSteps.attemptToLoginSuccessfully("standard_user", "secret_sauce");
 	}
 }

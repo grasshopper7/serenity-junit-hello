@@ -13,4 +13,9 @@ public class LoginSteps {
 	public void navigateToWebApp() {
 		loginPageObject.navigateToLogin();
 	}
+	
+	@Step("'#actor' succesfully logs in with username '{0}' and password '{1}'")
+	public void attemptToLoginSuccessfully(String username, String password) {
+		loginPageObject.attemptToLoginWithCredentials(username, password);
+	}
 }
