@@ -21,7 +21,7 @@ public class SauceLogin {
 	private LoginSteps loginSteps;
 
 	@Before
-	public void loginToSite() {
+	public void navigateToLoginPage() {
 		loginSteps.navigateToWebApp();
 	}
 
