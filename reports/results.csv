@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Sauce login","Successful Login Test","SUCCESS","2021-10-18T21:15:54.587+05:30[Asia/Calcutta]","0.0","20.53"
+"Sauce login","Successful Login Test","SUCCESS","2021-10-20T16:03:20.713+05:30[Asia/Calcutta]","0.0","9.17"
+"Sauce product cart","Add to Cart from All Products Page","SUCCESS","2021-10-20T16:03:32.617+05:30[Asia/Calcutta]","0.0","8.6"
+"Sauce product cart","Add to Cart from Product Details Page","SUCCESS","2021-10-20T16:03:41.841+05:30[Asia/Calcutta]","0.0","6.61"
+"Sauce view product","View Product Details","SUCCESS","2021-10-20T16:03:49.241+05:30[Asia/Calcutta]","0.0","5.73"
