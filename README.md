@@ -1,6 +1,6 @@
 This repository introduces the [Serenity BDD](https://serenity-bdd.info/) framework with a sample implementation using JUnit. The implementation will integrate Serenity with the Page Objects concept. The website used is https://www.saucedemo.com/ from Sauce Labs which can be used for learning browser automation.
 
-For further details, refer to this article - [Serenity BDD – ‘Hello World’ Introduction with Page Objects](https://ghchirp.tech/3319/)
+For further details, refer to this article - [Serenity BDD – ‘Hello World’ Introduction with Page Objects](https://ghchirp.online/3319/)
 
 The repository also has multiple branches at different development stages.
 
